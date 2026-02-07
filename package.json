@@ -1,0 +1,12 @@
+{
+  "name": "movfix",
+  "version": "1.0.0",
+  "description": "Fixes QuickTime/MOV videos not playing in Chrome",
+  "scripts": {
+    "build": "bun build src/popup.ts --outdir dist --target browser && cp manifest.json dist/ && cp popup.html dist/ && cp -r icons dist/",
+    "zip": "cd dist && zip -r ../movfix.zip . && cd .."
+  },
+  "devDependencies": {
+    "@types/chrome": "latest"
+  }
+}
