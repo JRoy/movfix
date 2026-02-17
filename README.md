@@ -10,7 +10,7 @@ Some websites serve videos with `type="video/quicktime"` or `.mov` URLs. Chrome 
 
 You can install movfix from the Chrome Web Store:
 
-[Chrome Web Store Link - Coming Soon]
+[![Chrome Webstore Link](https://developer.chrome.com/static/docs/webstore/branding/image/UV4C4ybeBTsZt43U4xis.png)](https://chromewebstore.google.com/detail/movfix/nimanafoonnlofmjcacnddimmafknlkg)
 
 For development, you can load the extension manually:
 
